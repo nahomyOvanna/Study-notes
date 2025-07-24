@@ -1,4 +1,4 @@
-# 🧰 VyOS Commands Cheat Sheet
+#  VyOS Commands Cheat Sheet
 
 VyOS is a powerful open-source network OS used for routing, firewalling, and VPN setups — perfect for lab environments and real-world simulations.
 
@@ -6,7 +6,7 @@ This cheat sheet covers essential VyOS commands for configuration, troubleshooti
 
 ---
 
-## 🔧 Configuration Basics
+##  Configuration Basics
 
 | Task | Command |
 |------|---------|
@@ -18,7 +18,7 @@ This cheat sheet covers essential VyOS commands for configuration, troubleshooti
 
 ---
 
-## 🌐 Interface Management
+##  Interface Management
 
 ```
 # Set a static IP on an interface
@@ -37,7 +37,7 @@ delete interfaces ethernet eth0 disable  # enable interface
 
 ---
 
-## 🛣️ Static Routing
+##  Static Routing
 
 ```
 # Add a static route
@@ -48,7 +48,7 @@ show ip route
 ```
 ---
 
-### 🔀 Dynamic Routing (OSPF/BGP)
+###  Dynamic Routing (OSPF/BGP)
 
 ```
 # Set router ID
@@ -65,9 +65,9 @@ set protocols bgp 65001 network 10.10.10.0/24
 
 ---
 
-## 🔍 Show / Debug Commands
+##  Show / Debug Commands
 
-| 📌 Purpose                     | 🔧 Command                    |
+|  Purpose                     |  Command                    |
 |-------------------------------|-------------------------------|
 | Show running configuration    | `show configuration`          |
 | Show interface IPs & status   | `show interfaces`             |
@@ -79,7 +79,7 @@ set protocols bgp 65001 network 10.10.10.0/24
 
 ---
 
-## 🔥 Firewall Example (UFW not used in VyOS)
+##  Firewall Example (UFW not used in VyOS)
 
 ```
 # Create a firewall rule
@@ -92,7 +92,7 @@ set interfaces ethernet eth0 firewall in name BLOCK-IN
 
 ---
 
-##  📌 Best Practices
+##   Best Practices
 
 - Always commit then save after making changes
 
@@ -104,7 +104,7 @@ set interfaces ethernet eth0 firewall in name BLOCK-IN
 
 ---
 
-### ✅ VyOS gives you enterprise-grade control in an open, scriptable, and GNS3-friendly platform. Mastering these commands gives you an edge in routing, firewalls, and infrastructure design.
+###  VyOS gives you enterprise-grade control in an open, scriptable, and GNS3-friendly platform. Mastering these commands gives you an edge in routing, firewalls, and infrastructure design.
 
 
 
