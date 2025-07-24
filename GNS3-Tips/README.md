@@ -1,18 +1,18 @@
-# 💡 GNS3 Tips – Study Notes
+#  GNS3 Tips – Study Notes
 
 GNS3 (Graphical Network Simulator 3) is a powerful tool for creating virtual network labs using real device images like VyOS, Cisco IOS, and Linux VMs. This guide captures tips, tricks, and fixes from hands-on experience.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-- ✅ **Run GNS3 as Administrator** (on Windows) or use `sudo` on Linux/Mac to avoid permission errors.
-- 🧠 Use the **GNS3 VM** with VirtualBox or VMware for better performance and full feature support.
-- 📦 Import appliances like VyOS or Kali Linux using `.gns3a` files from the [GNS3 Marketplace](https://gns3.com/marketplace).
+-  **Run GNS3 as Administrator** (on Windows) or use `sudo` on Linux/Mac to avoid permission errors.
+-  Use the **GNS3 VM** with VirtualBox or VMware for better performance and full feature support.
+-  Import appliances like VyOS or Kali Linux using `.gns3a` files from the [GNS3 Marketplace](https://gns3.com/marketplace).
 
 ---
 
-## 🛠️ Common Setup Tips
+##  Common Setup Tips
 
 | Task | Tip |
 |------|-----|
@@ -24,7 +24,7 @@ GNS3 (Graphical Network Simulator 3) is a powerful tool for creating virtual net
 
 ---
 
-## 🔍 Troubleshooting Lab Issues
+##  Troubleshooting Lab Issues
 
 | Issue | Fix |
 |-------|-----|
@@ -36,24 +36,24 @@ GNS3 (Graphical Network Simulator 3) is a powerful tool for creating virtual net
 
 ---
 
-## ⚙️ Helpful Features
+##  Helpful Features
 
-- 🖼️ **Drawings & Labels** – Use annotation tools to map out topologies visually
-- 🔌 **Capture packets** – Right-click a link → Start Wireshark capture (great for analysis)
-- 🧲 **Cloud Node** – Use it to bridge virtual devices to your physical machine or internet
-- 🛑 **Stop/Reload Individual Devices** – No need to reload the whole project
-
----
-
-## 📂 File & Project Tips
-
-- 🔖 Use short, consistent naming: `Lab01-Static-VyOS`, `Lab05-OSPF-MultiArea`
-- 📁 Store configs, topologies, and screenshots together in your repo
-- 📝 Document each step for learning + GitHub portfolio
+-  **Drawings & Labels** – Use annotation tools to map out topologies visually
+-  **Capture packets** – Right-click a link → Start Wireshark capture (great for analysis)
+-  **Cloud Node** – Use it to bridge virtual devices to your physical machine or internet
+-  **Stop/Reload Individual Devices** – No need to reload the whole project
 
 ---
 
-## 🧠 Pro Tips
+##  File & Project Tips
+
+-  Use short, consistent naming: `Lab01-Static-VyOS`, `Lab05-OSPF-MultiArea`
+-  Store configs, topologies, and screenshots together in your repo
+-  Document each step for learning + GitHub portfolio
+
+---
+
+##  Pro Tips
 
 - Enable **console logging** in VyOS for better visibility:
   ```
@@ -65,7 +65,7 @@ GNS3 (Graphical Network Simulator 3) is a powerful tool for creating virtual net
 
 ---
 
-### ✅ GNS3 is more than a visual tool — it’s your lab universe.
+###  GNS3 is more than a visual tool — it’s your lab universe.
 
 
 
