@@ -1,10 +1,10 @@
-# 🛠️ Routing Troubleshooting – Study Notes
+#  Routing Troubleshooting – Study Notes
 
 Routing issues can lead to unreachable destinations, dropped packets, or misrouted traffic. This guide outlines a structured approach to troubleshooting Layer 3 routing issues in both lab and production environments.
 
 ---
 
-## 🔍 Troubleshooting Flowchart
+##  Troubleshooting Flowchart
 
 1️⃣ **Check Physical Connectivity**  
 → Are the interfaces up/up and cables or virtual links in place?
@@ -30,7 +30,7 @@ Routing issues can lead to unreachable destinations, dropped packets, or misrout
 
 ---
 
-## 🔧 Useful Commands (VyOS)
+##  Useful Commands (VyOS)
 
 ```
 show ip route              # View full routing table
@@ -43,9 +43,9 @@ show interfaces            # Check interface IPs and status
 
 ---
 
-## 🧠 Key Checks
+##  Key Checks
 
-| ✅ Check               | 🔍 Why It Matters                                             |
+|  Check               |  Why It Matters                                             |
 |------------------------|--------------------------------------------------------------|
 | Interface is up/up     | Without Layer 2, routing won’t work                          |
 | Correct subnet mask    | Misaligned masks can break communication                     |
@@ -55,7 +55,7 @@ show interfaces            # Check interface IPs and status
 
 ---
 
-## 🧪 Example Scenario
+##  Example Scenario
 
 - Issue: Host can't reach 10.10.10.0/24
 
@@ -71,7 +71,7 @@ show interfaces            # Check interface IPs and status
 
 ---
 
-## ✅ Routing issues are almost always about:
+##  Routing issues are almost always about:
 
 - Misconfigurations
 
