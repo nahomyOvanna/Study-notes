@@ -1,10 +1,10 @@
-# 🌐 BGP Basics – Study Notes
+#  BGP Basics – Study Notes
 
 Border Gateway Protocol (BGP) is a **path vector routing protocol** used to exchange routing information between **autonomous systems (AS)**. It is the backbone of the internet and a key protocol in large-scale enterprise and hybrid cloud environments.
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 | Term | Description |
 |------|-------------|
@@ -17,7 +17,7 @@ Border Gateway Protocol (BGP) is a **path vector routing protocol** used to exch
 
 ---
 
-## 📈 BGP Characteristics
+##  BGP Characteristics
 
 - **Path Vector Protocol**
 - **TCP-based (port 179)**
@@ -27,7 +27,7 @@ Border Gateway Protocol (BGP) is a **path vector routing protocol** used to exch
 
 ---
 
-## 🔧 BGP Configuration Example (VyOS)
+##  BGP Configuration Example (VyOS)
 
 ```
 # Set the local AS
@@ -46,9 +46,9 @@ save
 
 ---
 
-## 🔍 Show Commands (VyOS)
+##  Show Commands (VyOS)
 
-| 🔧 Command                 | 🧠 Description                |
+|  Command                 |  Description                |
 |---------------------------|-------------------------------|
 | `show ip bgp summary`     | BGP neighbor status           |
 | `show ip bgp`             | View BGP routing table        |
@@ -56,7 +56,7 @@ save
 
 ---
 
-## 🔀 Path Selection (Simplified Order)
+##  Path Selection (Simplified Order)
 
 1. **Highest Local Preference** (iBGP)
 2. **Shortest AS Path** (eBGP)
@@ -69,7 +69,7 @@ save
 
 ---
 
-## 🧪 Real-World Use Cases
+##  Real-World Use Cases
 
 - Connecting to an ISP (eBGP)
 - Connecting cloud environments to on-prem via VPN or Direct Connect
@@ -78,9 +78,9 @@ save
 
 ---
 
-## ⚠️ BGP Pitfalls to Avoid
+##  BGP Pitfalls to Avoid
 
-| ❌ Mistake | 🔍 Result |
+|  Mistake |  Result |
 |------------|-----------|
 | No `network` statement | Routes not advertised |
 | No `neighbor` config   | Peering won't establish |
@@ -89,7 +89,7 @@ save
 
 ---
 
-### ✅ **BGP is powerful but sensitive** — it gives you full control, but with that comes responsibility.
+###  **BGP is powerful but sensitive** — it gives you full control, but with that comes responsibility.
 
 
 
