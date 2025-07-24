@@ -1,10 +1,10 @@
-# 🔀 OSPF – Study Notes
+#  OSPF – Study Notes
 
 OSPF (Open Shortest Path First) is a **link-state routing protocol** used to dynamically exchange routing information within an autonomous system. It's widely used in enterprise networks for its scalability, fast convergence, and area-based hierarchy.
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - **Link-State Protocol**: Routers exchange information about all known routes (topology map).
 - **Cost Metric**: Calculated based on bandwidth. Lower cost = preferred path.
@@ -14,7 +14,7 @@ OSPF (Open Shortest Path First) is a **link-state routing protocol** used to dyn
 
 ---
 
-## 🏗️ OSPF Areas
+##  OSPF Areas
 
 | Area Type | Description |
 |-----------|-------------|
@@ -25,7 +25,7 @@ OSPF (Open Shortest Path First) is a **link-state routing protocol** used to dyn
 
 ---
 
-## ⚙️ OSPF Configuration – VyOS (Single Area)
+##  OSPF Configuration – VyOS (Single Area)
 
 ```
 # Set OSPF process and advertise interfaces
@@ -37,7 +37,7 @@ commit
 save
 ```
 
-## ⚙️ Multi-Area OSPF (Example)
+##  Multi-Area OSPF (Example)
 
 ```
 # Advertise different interfaces into different areas
@@ -50,7 +50,7 @@ commit
 save
 ```
 
-## 🔍 OSPF Verification Commands (VyOS)
+##  OSPF Verification Commands (VyOS)
 
 ```
 # View OSPF neighbors and their status
@@ -68,9 +68,9 @@ show ip ospf interface
 
 ---
 
-## 🧪 OSPF Troubleshooting Tips
+##  OSPF Troubleshooting Tips
 
-| 🧩 Issue             | 🔍 Cause                               | 🛠️ Fix                                                                  |
+|  Issue             |  Cause                               |  Fix                                                                  |
 |----------------------|----------------------------------------|-------------------------------------------------------------------------|
 | No neighbor          | Mismatched area ID, MTU, subnet        | Check `show ip ospf neighbor` and interface settings                    |
 | One-way adjacency    | Hello/dead timer mismatch              | Verify timers and OSPF settings on both routers                         |
@@ -79,7 +79,7 @@ show ip ospf interface
 
 ---
 
-## 💡 Best Practices
+##  Best Practices
 
  - Always set a router ID explicitly for stability.
 
@@ -91,7 +91,7 @@ show ip ospf interface
 
 ---
 
-## 📚 Related Labs
+##  Related Labs
 
  - Lab 04 – Single-area OSPF
 
@@ -101,7 +101,7 @@ show ip ospf interface
 
 ---
 
-## ✅ Summary
+##  Summary
 
  - OSPF is ideal for large, structured networks that require:
 
