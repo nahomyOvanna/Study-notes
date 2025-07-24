@@ -1,10 +1,10 @@
-# 📐 Subnetting Cheat Sheet
+#  Subnetting Cheat Sheet
 
 Subnetting is the process of dividing a larger network (network ID) into smaller, efficient sub-networks. It helps with IP address management, segmentation, and improved routing performance.
 
 ---
 
-## 🧠 Key Terms
+##  Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -17,7 +17,7 @@ Subnetting is the process of dividing a larger network (network ID) into smaller
 
 ---
 
-## 📏 Subnetting Table (IPv4)
+##  Subnetting Table (IPv4)
 
 | CIDR | Subnet Mask | # of Subnets (Class C) | # of Hosts per Subnet | Wildcard Mask |
 |------|-------------|------------------------|------------------------|---------------|
@@ -31,15 +31,15 @@ Subnetting is the process of dividing a larger network (network ID) into smaller
 
 ---
 
-## 🧮 Formulas
+##  Formulas
 
-- 🖩 **Number of Hosts** = `2^(32 - CIDR)` − 2  
-- 🧩 **Block Size** = `256 - last octet of subnet mask`  
-- 📦 **Total Subnets (in a Class C)** = `2^borrowed bits`
+-  **Number of Hosts** = `2^(32 - CIDR)` − 2  
+-  **Block Size** = `256 - last octet of subnet mask`  
+-  **Total Subnets (in a Class C)** = `2^borrowed bits`
 
 ---
 
-## 🛠️ Quick Reference Examples
+##  Quick Reference Examples
 
 | Subnet | CIDR | Network | Broadcast | Host Range |
 |--------|------|---------|-----------|------------|
@@ -49,7 +49,7 @@ Subnetting is the process of dividing a larger network (network ID) into smaller
 
 ---
 
-## 🧠 Tips to Remember
+##  Tips to Remember
 
 - /30 is great for **point-to-point links** (only 2 hosts needed).
 - A **/24** subnet is the classic 254-host LAN range.
@@ -57,7 +57,7 @@ Subnetting is the process of dividing a larger network (network ID) into smaller
 
 ---
 
-## 🚧 Practice Scenario
+##  Practice Scenario
 
 You're given `192.168.10.0/24` and asked to divide it into 4 subnets.  
 - Subnet mask? → **/26**  
@@ -69,4 +69,4 @@ You're given `192.168.10.0/24` and asked to divide it into 4 subnets.
 
 ---
 
-### ✅ **Subnetting is a must-have skill** for IP planning, security segmentation, and efficient routing — especially in lab and cloud design work.
+### **Subnetting is a must-have skill** for IP planning, security segmentation, and efficient routing — especially in lab and cloud design work.
