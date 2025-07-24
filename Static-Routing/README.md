@@ -1,10 +1,10 @@
-# 🛰️ Static Routing – Study Notes
+#  Static Routing – Study Notes
 
 Static routing is a method of manually defining the path that network traffic should take between devices. Unlike dynamic routing protocols, static routes do not adapt to changes in the network automatically.
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - **Static Route**: A manually configured path from one network to another.
 - **Use Case**: Best suited for small, stable networks with predictable paths.
@@ -12,7 +12,7 @@ Static routing is a method of manually defining the path that network traffic sh
 
 ---
 
-## 🛠️ Configuration (VyOS Example)
+##  Configuration (VyOS Example)
 
 ```
 # Set a static route to reach 10.0.2.0/24 via next-hop 192.168.1.2
@@ -25,7 +25,7 @@ save
 
 ---
 
-## 🔍 Useful Show Commands
+##  Useful Show Commands
 
 ```
 # View currently configured static routes
@@ -38,9 +38,9 @@ show ip route
 show interfaces
 ```
 
-## 🧪 Troubleshooting Checklist
+##  Troubleshooting Checklist
 
-| ✅ Step | 🔧 Command or Tool       | 🔎 What to Check                                |
+|  Step |  Command or Tool       |  What to Check                                |
 |--------|--------------------------|-------------------------------------------------|
 | 1️⃣     | `ping`                   | Can you reach the next-hop or destination?      |
 | 2️⃣     | `traceroute`             | Where is the traffic stopping?                  |
@@ -50,7 +50,7 @@ show interfaces
 
 ---
 
-## 💡 Best Practices
+##  Best Practices
 
 ✔️ Verify interface connectivity before troubleshooting routing.
 
@@ -62,7 +62,7 @@ show interfaces
 
 ---
 
-## 🧪 Example Scenario (Lab 01)
+##  Example Scenario (Lab 01)
 
 Topology:
 
@@ -76,7 +76,7 @@ This enables bi-directional communication between networks using only static rou
 
 ----
 
-## ✅ Summary
+##  Summary
 
 Static routing is:
 
